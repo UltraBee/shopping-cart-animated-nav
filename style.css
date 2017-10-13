@@ -1,0 +1,83 @@
+/*Trzeba coś zrobić z menu - jak sie zmniejsza okno to jest out of line ;/ */
+
+
+
+body{
+    
+}
+
+.svg-image {
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    animation-name: shopping-cart-animation;
+    animation-duration: 3s;
+    transform: translateX(93vw);
+}
+
+@keyframes shopping-cart-animation {
+    0% {
+        transform: translateX(-10vw);
+    }  
+}
+
+.navigation-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    margin: 0px;
+    padding: 5px 0px;
+    background-color: aquamarine;
+}
+
+.navigation-menu {
+    height: 60px;
+    position: relative;
+}
+
+.company-logo {
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 8px 20px;
+    border: 1px solid #000;
+    float: left;
+    
+}
+
+.navigation-bar {
+    float: left;
+}
+
+.starting-page-animation {
+    animation-name: starting-page;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes starting-page {
+    0% {
+        color: transparent;
+        border-color: transparent;
+    }
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    width: 130px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 12px 20px;
+    float: left;
+    list-style: none;
+}
